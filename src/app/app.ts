@@ -16,4 +16,9 @@ export class App {
   // config des couleurs pour le header et footer
   public headerColor = 'violet';
   public footerColor = 'orange';
+  public couleurDeFond = 'white';
+
+  changerCouleurDeFond(couleur: string): void {
+    this.couleurDeFond = couleur;
+  }
 }

@@ -1,3 +1,5 @@
-<app-header [headerColor]="headerColor"></app-header>
-<app-body></app-body>
-<app-footer [footerColor]="footerColor"></app-footer>
+<div class="page" [style.backgroundColor]="couleurDeFond">
+  <app-header [headerColor]="headerColor"></app-header>
+  <app-body (couleurSelectionnee)="changerCouleurDeFond($event)"></app-body>
+  <app-footer [footerColor]="footerColor"></app-footer>
+</div>

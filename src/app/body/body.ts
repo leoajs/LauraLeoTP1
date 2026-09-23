@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './body.scss',
   templateUrl: './body.html',
 })
-export class Body {}
+export class Body {
+  @Output() couleurSelectionnee = new EventEmitter<string>();
+
+  choisirCouleur(couleur: string): void {
+    this.couleurSelectionnee.emit(couleur);
+  }
+}

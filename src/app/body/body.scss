@@ -19,6 +19,7 @@
   height: 400px;
   justify-content: center;
   width: 400px;
+  background-color: white;
 }
 
 .logo-windows {
@@ -31,6 +32,7 @@
 
 .carreau {
   min-height: 0;
+  cursor: pointer;
 }
 
 .carreau-rouge {

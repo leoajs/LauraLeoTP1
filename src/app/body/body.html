@@ -1,10 +1,22 @@
 <main class="contenu-corps">
   <div class="carre-windows" aria-label="Logo Windows">
     <div class="logo-windows">
-      <div class="carreau carreau-rouge"></div>
-      <div class="carreau carreau-vert"></div>
-      <div class="carreau carreau-bleu"></div>
-      <div class="carreau carreau-jaune"></div>
+      <div
+        class="carreau carreau-rouge"
+        (click)="choisirCouleur('#f25022')"
+      ></div>
+      <div
+        class="carreau carreau-vert"
+        (click)="choisirCouleur('#7fba00')"
+      ></div>
+      <div
+        class="carreau carreau-bleu"
+        (click)="choisirCouleur('#00a4ef')"
+      ></div>
+      <div
+        class="carreau carreau-jaune"
+        (click)="choisirCouleur('#ffb900')"
+      ></div>
     </div>
   </div>
 </main>
