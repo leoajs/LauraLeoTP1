@@ -1,0 +1,50 @@
+:host {
+  display: block;
+}
+
+.contenu-corps {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.carre-windows {
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 400px;
+}
+
+.logo-windows {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 90%;
+  width: 90%;
+}
+
+.carreau {
+  min-height: 0;
+}
+
+.carreau-rouge {
+  background-color: #f25022;
+}
+
+.carreau-vert {
+  background-color: #7fba00;
+}
+
+.carreau-bleu {
+  background-color: #00a4ef;
+}
+
+.carreau-jaune {
+  background-color: #ffb900;
+}
