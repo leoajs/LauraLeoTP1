@@ -12,5 +12,8 @@ import { Body } from './body/body';
 })
 export class App {
   protected readonly title = signal('LauraLeoTP1');
+
+  // config des couleurs pour le header et footer
   public headerColor = 'violet';
+  public footerColor = 'orange';
 }
